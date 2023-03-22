@@ -4,12 +4,7 @@
     font-family: 'EB Garamond', serif;
 }
 
-head{
-    margin-top: 25px;
-    border: 50px solid #d5927f;
-    box-shadow: 2px;
 
-}
 header{
     font-size: 35px;    
    
@@ -174,4 +169,15 @@ section{
     transform: scale(1.1);
    }
 
+   .social-icons{
+    display: flex;
+      justify-content: space-between;
+      width: 200px;
+      margin: 0 auto;
+      font-size: larger;
+    }
+
+    a{
+        color: #d5927f;
+    }
    
